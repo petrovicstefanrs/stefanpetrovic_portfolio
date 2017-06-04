@@ -437,6 +437,10 @@ section[data-page="about"] .main_menu{
 			}
 			@include medium_screen{
 				margin-bottom: 50px;
+				font-size: 1.5em;
+			}
+			@include small_screen{
+				font-size: 1em;
 			}
 			
 		}
@@ -575,7 +579,6 @@ section[data-page="portfolio"] .main_menu{
 				font-size: 1.5em;
 			}
 			@include small_screen{
-
 				font-size: 1em;
 			}
 		}
@@ -733,6 +736,10 @@ section[data-page="contact"] .main_menu{
 			}
 			@include medium_screen{
 				margin-bottom: 50px;
+				font-size: 1.5em;
+			}
+			@include small_screen{
+				font-size: 1em;
 			}
 			
 		}
@@ -776,7 +783,7 @@ section[data-page="contact"] .main_menu{
 	}
 	@include medium_screen{
 		flex-direction: column-reverse;
-		// padding-bottom: 20px;
+		padding-top: 50px;
 	}
 }
 

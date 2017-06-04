@@ -700,7 +700,11 @@ body {
     transform: translate(0); } }
       @media only screen and (max-width: 992px) {
         .aboutme .about_info .type_aboutme {
-          margin-bottom: 50px; } }
+          margin-bottom: 50px;
+          font-size: 1.5em; } }
+      @media only screen and (max-width: 601px) {
+        .aboutme .about_info .type_aboutme {
+          font-size: 1em; } }
     .aboutme .about_info .type_info {
       color: #ffffff; }
       .aboutme .about_info .type_info code {
@@ -1016,7 +1020,11 @@ section[data-page="contact"] .main_menu {
     transform: translate(0); } }
       @media only screen and (max-width: 992px) {
         .contact .contact_info .type_contact {
-          margin-bottom: 50px; } }
+          margin-bottom: 50px;
+          font-size: 1.5em; } }
+      @media only screen and (max-width: 601px) {
+        .contact .contact_info .type_contact {
+          font-size: 1em; } }
     .contact .contact_info .type_contact_info {
       color: #ffffff;
       padding-bottom: 40px;
@@ -1050,7 +1058,8 @@ section[data-page="contact"] .main_menu {
         width: 80%; } }
   @media only screen and (max-width: 992px) {
     .contact {
-      flex-direction: column-reverse; } }
+      flex-direction: column-reverse;
+      padding-top: 50px; } }
 
 .csswinner_overlay {
   position: fixed;
