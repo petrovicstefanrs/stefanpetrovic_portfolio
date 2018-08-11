@@ -26,7 +26,7 @@ var lFollowX = 0,
 function moveHead() {
   x += (lFollowX - x) * friction;
   y += (lFollowY - y) * friction;
-  
+
   translate = 'translate(' + x + 'px, ' + y + 'px) scale(1.0) ' + 'rotate(' + y + 'deg)';
 
   $('.mirror_img').css({
@@ -35,7 +35,7 @@ function moveHead() {
     'transform': translate
   });
 
-  window.requestAnimationFrame(moveHead); 
+  window.requestAnimationFrame(moveHead);
 }
 
 $(document).ready(function () {
@@ -57,7 +57,7 @@ $(document).ready(function () {
   // Start typeit plugin on home and preloader text elements
 
   $('.type-it').typeIt({
-    strings: ['Passion & <i class="fa fa-coffee" aria-hidden="true"></i>','HTML & CSS','PHP & MYSQL','Javascript','NPM & GULP','Sass & Less','GameMaker','Photoshop'],
+    strings: ['React','Node JS','A-Frame','PHP','GameMaker','Photoshop','Passion & <i class="fa fa-coffee" aria-hidden="true"></i>'],
     speed: 100,
     lifeLike: true,
     autoStart: false,
