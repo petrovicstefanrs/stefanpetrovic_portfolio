@@ -50,7 +50,7 @@ body{
 	.preloader_items{
 		color: $color-bright;
 		@include center_cont;
-		
+
 	}
 }
 
@@ -174,7 +174,7 @@ body{
     		top: -5px;
     		left: 50%;
     		transform: rotate(-10deg) translateX(-50%);
-		}		
+		}
 	}
 
 	.burger_menu{
@@ -229,7 +229,7 @@ body{
 
 		li{
 			font-weight: 400;
-			font-size: 2.5em;
+			font-size: 1.5em;
 			position: relative;
 			display: block;
 			width: 100%;
@@ -248,12 +248,11 @@ body{
 			}
 
 			@include medium_screen{
-				font-size: 2em;
 				max-height: 80px;
 			}
 
 			@include medium_screen{
-				font-size: 1.5em;
+				font-size: 1.2em;
 				max-height: 50px;
 			}
 		}
@@ -268,22 +267,22 @@ body{
 			10% {opacity: 0.8}
 			15% {opacity: 1}
 			25% { opacity: 0.5 }
-			30% { opacity: 0.1 }  
-			32% { opacity: 0.3 }  
-			36% { opacity: 0.8 }  
-			40% { opacity: 0.5 }  
-			50% { opacity: 0.5 }  
+			30% { opacity: 0.1 }
+			32% { opacity: 0.3 }
+			36% { opacity: 0.8 }
+			40% { opacity: 0.5 }
+			50% { opacity: 0.5 }
 			60% { opacity: 1; }
 			65% { opacity: 0.8; }
 			68% { opacity: 0.3; }
 			70% {opacity: 0.8}
 			75% {opacity: 1}
 			85% { opacity: 0.5 }
-			90% { opacity: 0.1 }  
-			92% { opacity: 0.3 }  
-			96% { opacity: 0.8 }  
-			98% { opacity: 0.5 }  
-			100% { opacity: 0.5 }  
+			90% { opacity: 0.1 }
+			92% { opacity: 0.3 }
+			96% { opacity: 0.8 }
+			98% { opacity: 0.5 }
+			100% { opacity: 0.5 }
 		}
 		@include center_cont;
 		.triangle_dash,
@@ -316,7 +315,7 @@ body{
 			@include medium_screen{
 				max-height: 120px;
 				height: 30%;
-				
+
 			}
 		}
 
@@ -344,11 +343,11 @@ body{
 		}
 	}
 }
- 
+
 .slideout_menu.menu_visible {
   transform: translateX(0);
 }
- 
+
 .side_label_left {
 	position: fixed;
 	color: $color-bright;
@@ -356,7 +355,7 @@ body{
     top: 0;
     left: 15px;
     letter-spacing: 1em;
-	p{	
+	p{
 		position: absolute;
 		top: 50%;
 		transform: rotate(-90deg) translateX(-50%);
@@ -442,7 +441,7 @@ section[data-page="about"] .main_menu{
 			@include small_screen{
 				font-size: 1em;
 			}
-			
+
 		}
 		.type_info{
 			color: $color-bright;
@@ -460,7 +459,7 @@ section[data-page="about"] .main_menu{
 
 		@include small_screen{
 			padding-left: 0;
-			padding-right: 0;	
+			padding-right: 0;
 			width: 80%;
 		}
 	}
@@ -502,7 +501,7 @@ footer{
 	left: 0;
 	background:transparent;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: center;
 	font-size: 1.2em;
 	.social_icons{
@@ -620,7 +619,7 @@ section[data-page="portfolio"] .main_menu{
 					margin-bottom: 1em;
 				}
 				code:nth-child(odd){
-					word-break: keep-all; 
+					word-break: keep-all;
 					flex: none;
 					background-color: $color-green;
 					color: $color-dark;
@@ -678,7 +677,7 @@ section[data-page="portfolio"] .main_menu{
 
 		@include small_screen{
 			padding-left: 0;
-			padding-right: 0;	
+			padding-right: 0;
 		}
 
 	}
@@ -741,7 +740,7 @@ section[data-page="contact"] .main_menu{
 			@include small_screen{
 				font-size: 1em;
 			}
-			
+
 		}
 		.type_contact_info{
 			color: $color-bright;
@@ -777,7 +776,7 @@ section[data-page="contact"] .main_menu{
 		}
 		@include small_screen{
 			padding-left: 0;
-			padding-right: 0;	
+			padding-right: 0;
 			width: 80%;
 		}
 	}
