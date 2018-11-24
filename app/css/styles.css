@@ -883,6 +883,8 @@ footer {
         width: 100%;
         border-top: 1px solid #00ffda;
         padding-top: 1em; }
+        .work .work_items .work_item_box .item_tech code {
+          margin-left: 15px; }
         .work .work_items .work_item_box .item_tech code:nth-child(even) {
           flex: none;
           background-color: #f0f;

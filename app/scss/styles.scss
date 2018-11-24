@@ -610,6 +610,9 @@ section[data-page="portfolio"] .main_menu{
 				width: 100%;
 				border-top: 1px solid $color-green;
 				padding-top: 1em;
+				code {
+					margin-left: 15px;
+				}
 				code:nth-child(even){
 					flex: none;
 					background-color: $color-glitch-one;

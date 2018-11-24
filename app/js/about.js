@@ -58,14 +58,14 @@ $(document).ready(function () {
 
   $('.preloader_items').typeIt({
     strings: ['Accessing: private_info.lbr...'],
-    speed: 25,
+    speed: 35,
     lifeLike: true,
     autoStart: false,
     loop: false,
     breakLines: true,
     callback: function() {
-      $('.preloader_items').delay(1000).fadeOut();
-      $('#preloader_container').delay(1250).fadeOut('slow');
+      $('.preloader_items').delay(250).fadeOut();
+      $('#preloader_container').delay(500).fadeOut('slow');
       writeInfo();
     }
   });

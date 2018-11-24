@@ -57,7 +57,7 @@ $(document).ready(function () {
   // Start typeit plugin on home and preloader text elements
 
   $('.type-it').typeIt({
-    strings: ['React','Node JS','A-Frame','PHP','GameMaker','Photoshop','Passion & <i class="fa fa-coffee" aria-hidden="true"></i>'],
+    strings: ['React','Node JS','A-Frame','Javascript','Photoshop','Passion & <i class="fa fa-coffee" aria-hidden="true"></i>'],
     speed: 100,
     lifeLike: true,
     autoStart: false,
@@ -75,14 +75,14 @@ $(document).ready(function () {
 
   $('.preloader_items').typeIt({
     strings: ['twostep_authcommand.bui', 'Username: ag54348', 'Password: ************', 'ACCESS TO SYSTEM', 'Initializing...'],
-    speed: 25,
+    speed: 35,
     lifeLike: true,
     autoStart: false,
     loop: false,
     breakLines: true,
     callback: function() {
-      $('.preloader_items').delay(1000).fadeOut();
-      $('#preloader_container').delay(1250).fadeOut('slow');
+      $('.preloader_items').delay(250).fadeOut();
+      $('#preloader_container').delay(500).fadeOut('slow');
     }
   });
 

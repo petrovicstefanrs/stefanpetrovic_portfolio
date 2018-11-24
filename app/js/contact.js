@@ -26,7 +26,7 @@ var lFollowX = 0,
 function moveHead() {
   x += (lFollowX - x) * friction;
   y += (lFollowY - y) * friction;
-  
+
   translate = 'translate(' + x*1.5 + 'px, ' + y*1.5 + 'px) scale(1.0) ';
 
   $('.about_image>img').css({
@@ -35,7 +35,7 @@ function moveHead() {
     'transform': translate
   });
 
-  window.requestAnimationFrame(moveHead); 
+  window.requestAnimationFrame(moveHead);
 }
 
 $(document).ready(function () {
@@ -58,14 +58,14 @@ $(document).ready(function () {
 
   $('.preloader_items').typeIt({
     strings: ['Hacking: social_media.bui...'],
-    speed: 25,
+    speed: 35,
     lifeLike: true,
     autoStart: false,
     loop: false,
     breakLines: true,
     callback: function() {
-      $('.preloader_items').delay(1000).fadeOut();
-      $('#preloader_container').delay(1250).fadeOut('slow');
+      $('.preloader_items').delay(250).fadeOut();
+      $('#preloader_container').delay(500).fadeOut('slow');
       // writeInfo();
     }
   });
