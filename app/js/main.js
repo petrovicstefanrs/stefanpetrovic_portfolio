@@ -57,7 +57,7 @@ $(document).ready(function () {
   // Start typeit plugin on home and preloader text elements
 
   $('.type-it').typeIt({
-    strings: ['React','Node JS','A-Frame','Javascript','Photoshop','Passion & <i class="fa fa-coffee" aria-hidden="true"></i>'],
+    strings: ['Developer','Indie Maker','Open Sourcerer','Awwwards Young Judge','UI/UX Designer'],
     speed: 100,
     lifeLike: true,
     autoStart: false,

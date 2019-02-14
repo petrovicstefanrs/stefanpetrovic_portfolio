@@ -350,17 +350,15 @@ body{
 
 .side_label_left {
 	position: fixed;
-	color: $color-bright;
+	height: 100vh;
+    width: 20px;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    filter: blur(100px);
+    background: white;
 	height: 100%;
     top: 0;
-    left: 15px;
-    letter-spacing: 1em;
-	p{
-		position: absolute;
-		top: 50%;
-		transform: rotate(-90deg) translateX(-50%);
-		transform-origin: left top;
-	}
+    left: 0;
 	@include medium_screen{
 		font-size: 1em;
 	}
@@ -372,16 +370,14 @@ body{
 .side_label_right {
 	position: fixed;
 	color: $color-bright;
-	height: 100%;
+	height: 100vh;
+    width: 20px;
+    border-bottom-left-radius: 100%;
+    border-top-left-radius: 100%;
+    filter: blur(100px);
+    background: white;
     top: 0;
-    right: 15px;
-    letter-spacing: 1em;
-	p{
-		position: absolute;
-	    top: 50%;
-	    transform: rotate(270deg) scale(-1) translateX(-50%);
-	    transform-origin: left top;
-	}
+    right: 0;
 	@include medium_screen{
 		font-size: 1em;
 	}

@@ -1,5 +1,47 @@
 var portfolioData = [
 	{
+		title: '30 Seconds of Knowledge',
+		stack: ['React', 'Chrome Extension'],
+		desc:
+			'Become a better Developer, one New Tab at a time.',
+		buttons: [
+			{
+				href: 'https://30secondsofknowledge.petrovicstefan.rs/',
+				icon: 'link',
+				label: 'Visit',
+			},
+			{
+				href: 'https://github.com/petrovicstefanrs/30_seconds_of_knowledge',
+				icon: 'github',
+				label: 'Github',
+			},
+			{
+				href:
+					'https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla',
+				icon: 'chrome',
+				label: 'Chrome Web Store',
+			},
+		],
+	},
+	{
+		title: 'Tiny Instruments',
+		stack: ['Vanilla JS'],
+		desc:
+			'Tiny Instruments! Relax, listen to some catchy tunes and let them brighten up your day!',
+		buttons: [
+			{
+				href: 'https://tinyinstruments.petrovicstefan.rs/',
+				icon: 'link',
+				label: 'Visit',
+			},
+			{
+				href: 'https://github.com/petrovicstefanrs/tiny_instruments',
+				icon: 'github',
+				label: 'Github',
+			},
+		],
+	},
+	{
 		title: 'RateFolio',
 		stack: ['ReactJS', 'Firebase'],
 		desc:

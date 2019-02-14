@@ -1,5 +1,22 @@
 var awardData = [
 	{
+		title: 'ProductHunt - #2 Product of the Day',
+		date: '06.02.2019',
+		desc: 'On 06. of Feb, 30 Seconds of Knowledge was #2 Product of the Day. You can check out the app on the ProductHunt page or by visiting the website.',
+		buttons: [
+			{
+				href: 'https://www.producthunt.com/posts/30-seconds-of-knowledge',
+				icon: 'product-hunt',
+				label: 'PH Page',
+			},
+			{
+				href: 'https://30secondsofknowledge.petrovicstefan.rs/',
+				icon: 'link',
+				label: 'Visit Project',
+			},
+		],
+	},
+	{
 		title: 'Virtuleap WebXR Hackathon - 4th Place',
 		date: '15.08.2018',
 		desc: 'On 15th of August my VR Book Reader application landed 4th place from 21 entries on Virtuleap\'s WebXR Hackathon.',

@@ -72,7 +72,7 @@ $(document).ready(function () {
 
   function writeInfo() {
     $('.type_info').delay(2000).typeIt({
-      strings: ['<code>Name:</code> Stefan Petrović','<code>Date of Birth:</code> 11.02.1995','<code>Education:</code> ICT College of Vocational Studies','<code>Degree:</code> Vocational Engineer of Electrical and Computer Engineering','<code>Skills:</code> HTML, CSS, Sass, Less, Javascript, ReactJS, NodeJS, A-Frame, React360, PHP, CodeIgniter, MySql, Postgresql, Java, C#, GameMaker Studio, Making Delicious Coffe...','</br>','<code class="purple">Info:</code> Young and passionate developer, always happy to learn new things and evolve. Fell in love with computers and programming as a kid and has pursued his dream to become a developer since. Also a major geek and gaming enthusiast with an impressive collection of retro consoles. '],
+      strings: ['<code>Name:</code> Stefan Petrović','<code>Date of Birth:</code> 11.02.1995','<code>Education:</code> ICT College of Vocational Studies','<code>Degree:</code> Vocational Engineer of Electrical and Computer Engineering','<code>Skills:</code> HTML, CSS (Sass/Less), Javascript, React, NodeJS, A-Frame, Making Delicious Coffe...','</br>','<code class="purple">Info:</code> Young and passionate developer, always happy to learn new things and evolve. Fell in love with computers and programming as a kid and has pursued his dream to become a developer since. Also a major geek and gaming enthusiast with an impressive collection of retro consoles. '],
       speed: 15,
       lifeLike: true,
       autoStart: false,
